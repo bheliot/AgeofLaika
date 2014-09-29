@@ -22,8 +22,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func convertAgeToDogYearsButtonPressed(sender: UIButton) {
+
+    @IBAction func convertAgeButtonPressed(sender: UIButton) {
         ageConvertedToDogYearsLabel.hidden = false
         enterAgeInHumanYearsTextField.resignFirstResponder()
         
@@ -33,7 +33,6 @@ class ViewController: UIViewController {
         ageConvertedToDogYearsLabel.text =
             "\(ageFromTextField * conversionConstant)" + " in dog years"
     }
-
 
 }
 

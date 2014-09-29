@@ -34,7 +34,7 @@
                                     <rect key="frame" x="-6" y="135" width="344" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="convertAgeToDogYearsButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Hqj-K9-oB9"/>
+                                    <action selector="convertAgeButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tPR-hg-NYG"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter age in whole human years" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T95-wU-1cI">
